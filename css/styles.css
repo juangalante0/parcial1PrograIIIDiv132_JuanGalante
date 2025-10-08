@@ -1,0 +1,92 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    color: white;
+}
+
+
+#nombreNav{
+    color: white;
+}
+
+.nombreBuscador{
+    display: flex;
+    align-items: center;
+}
+
+#productosNav{
+    color: white;
+}
+
+#barraBusqueda{
+    height: 35%;
+}
+
+
+.card-producto img{
+    width: 60px;
+    height: 60px;
+}
+
+.card-producto{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-producto button{
+    height: 30px;;
+    background-color: rgb(4, 183, 4);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+#contenedorFrutas{
+    height: 600px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#contenedorCarrito{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedorCarrito li{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+#contenedorCarrito button{
+
+    height: 25px;
+    background-color: rgb(255, 85, 85);
+    border: none;
+    color: white;
+    border-radius: 7px;
+
+}
