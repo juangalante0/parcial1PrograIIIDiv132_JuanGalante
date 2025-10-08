@@ -157,7 +157,9 @@ function eliminarProducto(indice){
 function contarProductos(){
     contadorProductos = carrito.length;
 }
+
 /*
+no llegue a hacerlo, habia dejado este comentrio para hacerlo al final
 getElementById("boton-ordenar-alf").addEventListener("click", ordenarPorNombre);
 getElementById("boton-ordenar-nombre").addEventListener("click", ordenarPorPrecio);
 */
